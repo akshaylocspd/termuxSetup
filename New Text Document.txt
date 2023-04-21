@@ -1,0 +1,8 @@
+git clone https://github.com/akshaylocspd/termuxSetup.git
+
+# this is useful command for adding repo in termux
+nano $PREFIX/etc/apt/sources.list
+
+deb https://mirrors.tuna.tsinghua.edu.cn/>
+
+

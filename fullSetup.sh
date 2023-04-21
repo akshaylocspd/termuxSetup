@@ -3,6 +3,12 @@
 # Update package list
 apt update && upgrade -y
 
+pkg install tur-repo
+pkg install x11-repo
+pkg install root-repo
+pkg install science-repo
+pkg install game-repo
+apt update && upgrade -y
 # Install packages using apt
 apt install -y openssh nano dlib python nodejs git curl wget python-pip python-numpy yarn python-pillow
 
