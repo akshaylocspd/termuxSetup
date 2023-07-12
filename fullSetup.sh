@@ -10,8 +10,8 @@ pkg install science-repo
 pkg install game-repo
 apt update && upgrade -y
 # Install packages using apt
-apt install -y openssh nano dlib python nodejs git curl wget python-pip python-numpy yarn python-pillow
-
+apt install -y openssh nano dlib python nodejs git curl wget  python-numpy yarn python-pillow
+#python-pip
 # Install http-server using npm
 npm install -g http-server
 
